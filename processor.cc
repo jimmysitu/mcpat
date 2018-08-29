@@ -708,6 +708,12 @@ void Processor::displayEnergy(uint32_t indent, int plevel, bool is_tdp)
 
 }
 
+void Processor::compute()
+{
+    // TODO: Add compute energy here
+    // This empty implement place here is fixed SWIG calling issue
+}
+
 void Processor::set_proc_param()
 {
 	bool debug = false;
